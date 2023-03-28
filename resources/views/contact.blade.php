@@ -7,7 +7,7 @@
     <title>Contact Page</title>
 </head>
 <body>
-    <h1>Contact Page from ContactController</h1>
+    <h1>Contact Page from ContactController.</h1>
     <p>Laravel 9 new feature</p>
 
     <!-- Name Route -->
