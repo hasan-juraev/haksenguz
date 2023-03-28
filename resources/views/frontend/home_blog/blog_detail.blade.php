@@ -44,7 +44,7 @@ Blog | Detail
                     <div class="standard__blog__post">
 
                         <div class="standard__blog__thumb">
-                            <img src="{{ asset($blog_details->blog_image) }}" alt="">
+                            <img src="{{ asset($blog_details->blog_image) }}" alt="image">
                         </div>
 
                         <div class="blog__details__content services__details__content">

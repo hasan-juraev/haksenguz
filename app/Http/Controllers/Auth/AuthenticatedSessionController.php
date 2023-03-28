@@ -32,13 +32,14 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
 
-         // toastr notification
-         $notification = array (
+        // toastr notification
+        $notification = array (
             'message' => 'Logged in!',
             'alert-type' => 'success'
         );
         
         return redirect()->intended(RouteServiceProvider::HOME)->with($notification);
+   
     }
 
     /**

@@ -18,6 +18,7 @@
                                 <th> Name </th>
                                 <th> Email </th>                              
                                 <th> Phone </th>
+                                <th> Message </th>
                                 <th> Date </th>
                                 <th> Action</th>
                              
@@ -33,6 +34,7 @@
                                 <td> {{ $message->name }} </td>
                                 <td> {{ $message->email }} </td>    
                                 <td> {{ $message->phone }} </td>    
+                                <td> <a href="{{route('contact.messages.view', $message->id)}}">Read</a></td>    
                                                           
                                 <td> {{ $message->created_at->diffForHumans() }} </td>
                               

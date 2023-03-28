@@ -50,6 +50,12 @@ class ContactController extends Controller
         return view('admin.contact.messages', compact('messages'));
     }
 
+    public function contactMessagesview($id)
+    {
+        $messagesview = Contact::findOrFail($id);
+        return view('admin.contact.message_view', compact('messagesview'));
+    }
+
     public function deleteMessage($id)
     {
         Contact::findOrFail($id)->delete();

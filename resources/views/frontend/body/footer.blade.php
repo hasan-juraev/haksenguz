@@ -45,7 +45,7 @@ $footer = App\Models\Footer::find(1);
                 </div>
             </div>
         </div>
-        <div class="copyright__wrap">
+        <!-- <div class="copyright__wrap">
             <div class="row">
                 <div class="col-12">
                     <div class="copyright__text text-center">
@@ -53,6 +53,6 @@ $footer = App\Models\Footer::find(1);
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </footer>

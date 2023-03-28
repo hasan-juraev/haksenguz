@@ -41,7 +41,7 @@ Contact
 
             <!-- contact-map -->
             <div id="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96811.54759587669!2d-74.01263924803828!3d40.6880494567041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1636195194646!5m2!1sen!2sbd"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.030484053615!2d126.99528181513976!3d37.53077867980462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3cab6b2347f%3A0x2a3fdc392844c84c!2s4-17%20Usadan-ro%204-gil%2C%20Yongsan-gu%2C%20Seoul!5e0!3m2!1sen!2skr!4v1673795519006!5m2!1sen!2skr"
                     allowfullscreen loading="lazy"></iframe>
             </div>
             <!-- contact-map-end -->
@@ -113,7 +113,7 @@ Contact
                                 </div>
                                 <div class="contact__info__content">
                                     <h4 class="title">address line</h4>
-                                    <span>Bowery St, New York, <br> NY 10013,USA</span>
+                                    <span>#101 , 4-17 Usadanro 4 Gil, Yongsan Gu , Seoul, S Korea </span>
                                 </div>
                             </div>
                         </div>
@@ -124,8 +124,8 @@ Contact
                                 </div>
                                 <div class="contact__info__content">
                                     <h4 class="title">Phone Number</h4>
-                                    <span>+1255 - 568 - 6523</span>
-                                    <span>+1255 - 568 - 6523</span>
+                                    <span>+821088854054</span>
+                                    <!-- <span>+</span> -->
                                 </div>
                             </div>
                         </div>
@@ -136,8 +136,8 @@ Contact
                                 </div>
                                 <div class="contact__info__content">
                                     <h4 class="title">Mail Address</h4>
-                                    <span>email@example.com</span>
-                                    <span>info@yourdomain.com</span>
+                                    <span>msakorganization@gmail.com</span>
+                                    <!-- <span>info@yourdomain.com</span> -->
                                 </div>
                             </div>
                         </div>
@@ -153,15 +153,15 @@ Contact
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="section__title">
-                                    <span class="sub-title">07 - Say hello</span>
+                                    <!-- <span class="sub-title">07 - Say hello</span> -->
                                     <h2 class="title">Any questions? Feel free <br> to contact</h2>
                                 </div>
                                 <div class="homeContact__content">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                    <h2 class="mail"><a href="mailto:Info@webmail.com">Info@webmail.com</a></h2>
+                                    <p>MSAK is an independent organization working mainly for Muslim students in all around Korea.</p>
+                                    <h2 class="mail"><a href="mailto:msakorganization@gmail.com">msakorganization@gmail.com</a></h2>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <!-- <div class="col-lg-6">
                                 <div class="homeContact__form">
                                     <form action="#">
                                         <input type="text" placeholder="Enter name*">
@@ -171,7 +171,7 @@ Contact
                                         <button type="submit">Send Message</button>
                                     </form>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

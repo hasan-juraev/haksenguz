@@ -35,8 +35,8 @@
                                 <td> <img src="{{ asset($item->blog_image) }}" alt="" style="width:50px; height:50px"> </td>
                                 <!-- action -->
                                 <td>
-                                    <a class="btn btn-info sm" href=" {{ route('edit.blog', $item->id) }}" title="edit"> <i class="fas fa-edit"></i> </a>
-                                    <a class="btn btn-danger sm" href=" {{ route('delete.blog', $item->id) }}" title="delete" id="delete"> <i class="fas fa-trash"> </i> </a>
+                                    <a class="btn btn-info sm" href="{{ route('edit.blog', $item->id) }}" title="edit"> <i class="fas fa-edit"></i> </a>
+                                    <a class="btn btn-danger sm" href="{{ route('delete.blog', $item->id) }}" title="delete" id="delete"> <i class="fas fa-trash"> </i> </a>
                                 </td>
                               
                             </tr>

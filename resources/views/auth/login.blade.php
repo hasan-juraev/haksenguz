@@ -78,9 +78,12 @@
                                     <div class="col-12">
                                         <button class="btn btn-info w-100 waves-effect waves-light" type="submit">Log In</button>
                                     </div>
+                                    <a href="{{ url('auth/google') }}" style="margin-top: 0px !important;background: green;color: #ffffff;padding: 5px;border-radius:7px;" class="ml-2">
+                                    <strong>Google Login</strong>
+                                    </a> 
                                 </div>
     
-                                <div class="form-group mb-0 row mt-2">
+                                <!-- <div class="form-group mb-0 row mt-2">
                                     <div class="col-sm-7 mt-3">
                                    
                                         <a href="{{ route('password.request') }}" class="text-muted"><i class="mdi mdi-lock"></i> Forgot your password?</a>
@@ -89,7 +92,7 @@
                                     <div class="col-sm-5 mt-3">
                                         <a href="{{ route('register') }}" class="text-muted"><i class="mdi mdi-account-circle"></i> Create an account</a>
                                     </div>
-                                </div>
+                                </div> -->
                             </form>
                         </div>
                         <!-- end -->

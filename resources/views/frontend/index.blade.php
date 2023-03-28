@@ -323,7 +323,7 @@ Home
 <!-- blog-area-end -->
 
 <!-- contact-area -->
-<section class="homeContact">
+<!-- <section class="homeContact">
     <div class="container">
         <div class="homeContact__wrap">
             <div class="row">
@@ -351,6 +351,6 @@ Home
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- contact-area-end -->
 @endsection

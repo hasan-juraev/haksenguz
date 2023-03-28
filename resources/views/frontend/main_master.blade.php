@@ -48,6 +48,10 @@
         </main>
         <!-- main-area-end -->
     
+        <!-- home_contact_wrap- area -->
+        @include('frontend.body.home_contact_wrap')
+        <!-- home_contact_wrap- area-end -->
+        
         <!-- Footer-area -->
         @include('frontend.body.footer')
         <!-- Footer-area-end -->

@@ -20,11 +20,11 @@
                                     <li><a href="#">Services</a></li>
                                     <li class="{{ ($route == 'home.portfolio')? 'active' : '' }}"><a href="{{ route('home.portfolio')}}">Portfolio</a> </li>
                                     <li class="{{ ($route == 'home.blog')? 'active' : '' }}"><a href="{{ route('home.blog') }}">Our Blog</a> </li>
-                                    <li class="{{ ($route == 'contact.me')? 'active' : '' }}"><a href="{{ route('contact.me')}}">contact me</a></li>
+                                    <li class="{{ ($route == 'contact.me')? 'active' : '' }}"><a href="{{ route('contact.me')}}">contact</a></li>
                                 </ul>
                             </div>
                             <div class="header__btn d-none d-md-block">
-                                <a href="contact.html" class="btn">Contact me</a>
+                                <a href="{{route('contact.me')}}" class="btn">Contact</a>
                             </div>
                         </nav>
                     </div>

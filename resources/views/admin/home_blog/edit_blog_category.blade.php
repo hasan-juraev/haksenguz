@@ -16,9 +16,7 @@
                     <h4 class="card-title"> Edit Blog Page </h4>  <br>  
                     <!-- id of blog category is passed to route itself -->
                     <form method="POST" action="{{ route('update.blog.category', $edit_blog_categories->id) }}" >
-                        @csrf
-
-                       
+                        @csrf                      
 
                         <!-- name -->
                         <div class="row mb-3">

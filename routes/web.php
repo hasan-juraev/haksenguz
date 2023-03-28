@@ -11,6 +11,8 @@ use App\Http\Controllers\Home\BlogCategoryController;
 use App\Http\Controllers\Home\BlogController;
 use App\Http\Controllers\Home\FooterController;
 use App\Http\Controllers\Home\ContactController;
+use App\Http\Controllers\GoogleSocialiteController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -23,20 +25,14 @@ use App\Http\Controllers\Home\ContactController;
 |
 */
 
-
-
 // display admin.index.blade.php file as a dashboard
 Route::get('/dashboard', function () {
     return view('admin.index');
-})->middleware(['auth', 'verified'])->name('dashboard');
+})->middleware(['auth', 'isAdmin', 'verified'])->name('dashboard');
 
 Route::controller(DemoController::class)->group(function () {
-
     // To display home page
     Route::get('/', 'homePage')->name('home');
-    Route::get('/about', 'Index')->name('about.page')->middleware('check');
-    Route::get('/contact', 'ContactMethod')->middleware('test');  
-
 });
 
 
@@ -53,18 +49,24 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/edit/profile', 'editProfile')->name('edit.profile');
         Route::post('/store/profile', 'storeProfile')->name('store.profile');
         Route::get('/change/password', 'changePassword')->name('change.password');
-        Route::post('/update/password', 'updatePassword')->name('update.password');        
+        Route::post('/update/password', 'updatePassword')->name('update.password');     
     });
 
 });
 
+
+
 // Home Slide Controller
 Route::controller(HomeSliderController::class)->group(function () {
-
     Route::get('/home/slide', 'homeSlideSetup')->name('home.slide');
     Route::post('/update/slide', 'updateSlide')->name('update.slide');
    
 });
+
+Route::controller(GoogleSocialiteController::class)->group(function () {
+    Route::get('/auth/google', 'redirectToGoogle')->name('auth.google');
+    Route::get('/callback/google', 'handleCallback')->name('callback.google');
+});	
 
 
 // About Page Route
@@ -118,7 +120,6 @@ Route::controller(BlogCategoryController::class)->group(function () {
 
 });
 
-
 //Blog Routes Frontend
 Route::controller(BlogController::class)->group(function () {
     Route::get('/all/blog', 'allBlog')->name('all.blog');
@@ -149,6 +150,7 @@ Route::controller(ContactController::class)->group(function () {
     Route::get('/contact', 'contactPage')->name('contact.me');
     Route::post('/store/message', 'storeMessage')->name('store.message');
     Route::get('/contact/messages', 'contactMessages')->name('contact.messages');
+    Route::get('/contact/message/view/{id}', 'contactMessagesview')->name('contact.messages.view');
     Route::get('/delete/message/{id}', 'deleteMessage')->name('delete.message');
     
  });

@@ -64,7 +64,15 @@
                                         <input class="form-control" id="email" type="email" name="email" required="" placeholder="Email">
                                     </div>
                                 </div>
-                                
+                               
+                                    <!--user role type-->
+                                <div class="form-group mb-3 row">
+                                    <div class="col-12">
+                                        <input class="form-control" id="type" type="hidden" name="type" value="user">
+                                    </div>
+                                </div>
+                               
+                               
                                 <!-- password -->
                                 <div class="form-group mb-3 row">
                                     <div class="col-12">
