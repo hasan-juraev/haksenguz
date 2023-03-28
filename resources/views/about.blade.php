@@ -7,7 +7,7 @@
     <title>About page</title>
 </head>
 <body>
-    <h1>This is about page from controller</h1>
+    <h1>This is about page from controllers</h1>
     
    <!-- URL Route -->
     <a href="{{ url('/contact')}}">Contact</a>
