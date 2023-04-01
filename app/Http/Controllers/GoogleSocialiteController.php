@@ -11,7 +11,7 @@ use App\Models\User;
 class GoogleSocialiteController extends Controller
 {
     /**
-     * Create a new controller instance. Google Loginis added.
+     * Create a new controller instance. Google Loginis added. Google Login API.
      *
      * @return void
      */
