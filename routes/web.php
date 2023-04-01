@@ -69,7 +69,7 @@ Route::controller(GoogleSocialiteController::class)->group(function () {
 });	
 
 
-// About Page Route
+// About Page Routes
 Route::controller(AboutController::class)->group(function () {
 
     Route::get('/home/about', 'aboutPageSetUp')->name('home.about');
