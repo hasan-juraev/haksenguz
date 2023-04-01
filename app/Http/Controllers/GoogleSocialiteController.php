@@ -12,6 +12,7 @@ class GoogleSocialiteController extends Controller
 {
     /**
      * Create a new controller instance. Google Loginis added. Google Login API.
+     * Test
      *
      * @return void
      */
